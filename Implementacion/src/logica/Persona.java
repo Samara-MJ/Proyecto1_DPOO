@@ -1,12 +1,12 @@
 package logica;
 
 public abstract class Persona {
-	public String nombre;
-	public double cedula;
-	public String fechadeNacimiento;
-	public String nacionalidad;
-	public String email;
-	public double celular;
+	protected String nombre;
+	protected double cedula;
+	protected String fechadeNacimiento;
+	protected String nacionalidad;
+	protected String email;
+	protected double celular;
 	//public **imagen documento**//
 	public String login;
 	public String password;
@@ -70,8 +70,10 @@ public abstract class Persona {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
+	public abstract void agregarPersona() {
+		//Se agrega a la lista//
+		return ;
+	}
 	
 
 }

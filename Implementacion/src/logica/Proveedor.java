@@ -1,4 +1,6 @@
 package logica;
+import logica.Vehiculo;
+import java.util.ArrayList;
 
 public class Proveedor {
 	public String nombre;
@@ -18,6 +20,9 @@ public class Proveedor {
 	}
 	public int getCantidaddeVehiculo() {
 		return cantidaddeVehiculo;
+	}
+	public ArrayList<String> agregarVehiculo(){
+		return
 	}
 	
 

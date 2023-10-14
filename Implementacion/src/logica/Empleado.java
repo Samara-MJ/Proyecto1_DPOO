@@ -7,6 +7,11 @@ public class Empleado extends Persona {
 		super(nombre, cedula, fechadeNacimiento, nacionalidad, email, celular, login, password);
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public void agregarPersona() {
+		// TODO Auto-generated method stub
+		
+	}
 
 
 	
